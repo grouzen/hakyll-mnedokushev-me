@@ -1,0 +1,30 @@
+
+html {
+    background-color: #fff;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 24px
+}
+
+div#wrapper {
+    width: 100%;
+}
+
+div#container {
+    width: 700px;
+    margin: 0 auto;
+}
+
+div#navigation {
+    float: left;
+    height: 1000px;
+    width: 100px;
+    padding-left: 30px;
+}
+
+div#navigation a {
+    display: block;
+}
+
+div#content {
+}
