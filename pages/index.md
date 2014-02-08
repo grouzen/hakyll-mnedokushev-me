@@ -30,7 +30,7 @@ Looks pathetic, isn't it?
 For many years, my favorite text editor is Notepad.exe... 
 just kidding, actually Emacs. One of my favorite programming language 
 is by far the Common Lisp, and I think it will be so until my death.
-Yeah, I know, you could say that it's not statically typed, but I really love
-to write on it, so you can go away from here ;-).
+Yeah, I know, you could say that it's not statically typed, but in my defense
+I can say that this blog is written in Haskell ;-).
 
 ## _To be continued..._
