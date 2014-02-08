@@ -17,7 +17,17 @@ main = hakyllWith config $ do
   match (fromGlob "css/*.css") $ do
     route idRoute
     compile compressCssCompiler
-      
+
+  match (fromGlob "css/i/*") $ do
+    route idRoute
+    compile copyFileCompiler
+
+  match (fromGlob "images/*") $ do
+    route idRoute
+    compile copyFileCompiler
+
 
 config :: Configuration
-config = defaultConfiguration
+config = defaultConfiguration {
+  deployCommand = "rsync --checksum -ave 'ssh' _site/* root@mnedokushev.me:/var/www/"
+  }

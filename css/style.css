@@ -1,9 +1,13 @@
 
 html {
-    background-color: #fff;
     font-size: 16px;
     font-family: sans-serif;
     line-height: 24px
+}
+
+body {
+    background-image: url(./i/tweed.png);
+    background-repeat: repeat;
 }
 
 div#wrapper {
@@ -12,19 +16,73 @@ div#wrapper {
 
 div#container {
     width: 700px;
+    min-height: 1000px;
     margin: 0 auto;
+    background-color: #fff;
+    border-top-right-radius: 35px;
+    -moz-border-top-right-radius: 35px;
+    -webkit-border-top-radius-radius: 35px;
+    border-bottom-right-radius: 35px;
+    -moz-border-bottom-right-radius: 35px;
+    -webkit-border-bottom-radius-radius: 35px;
+    padding-right: 20px;
+    position: relative;
+}
+
+div#container a {
+    color: #000;
 }
 
 div#navigation {
     float: left;
-    height: 1000px;
     width: 100px;
     padding-left: 30px;
+    padding-top: 20px;
+    background: #e9e9e9;
+    min-height: 980px;
 }
 
 div#navigation a {
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 10px;
     display: block;
 }
 
-div#content {
+div#body {
+    padding-top: 20px;
+    padding-left: 150px;
+}
+
+div#footer {
+    bottom: 2px;
+    font-size: 14px;
+    color: #999;
+    padding-left: 150px;
+    vertical-alight: bottom;
+    position: absolute;
+    bottom: 20px;
+}
+
+/* Markdown-related stuff */
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 26;
+}
+
+h2 {
+    font-size: 22;
+}
+
+h3 {
+    font-size: 18;
+}
+
+li {
+    list-style-image: url(./i/list-item.png);
+    margin-left: -15px;
 }
