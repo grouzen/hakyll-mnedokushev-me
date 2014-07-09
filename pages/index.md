@@ -21,7 +21,7 @@ in things like:
 - programming
 - computer science
 - music
-- and riding my bike.  
+- and riding the bicycle.  
 
 Looks pathetic, isn't it?
 
