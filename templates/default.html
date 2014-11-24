@@ -22,19 +22,35 @@
     <div id="container">
 
         <div id="navigation">
-            <h1>B&lambda;og</h1>
+            <h1><a href="/index.html">B&lambda;og</a></h1>
             <a href="/index.html">Home</a>
             <a href="/posts.html">Posts</a>
+            <a href="/todo.html">Todo &lambda;ist</a>
             <a href="/contacts.html">Contacts</a>
 
             <h1>&#923;inks</h1>
             <a href="http://github.com/grouzen">Github</a>
             <a href="http://www.youtube.com/user/grouzenhexy">Youtube</a>
+            <a href="https://www.facebook.com/mykhailo.nedokushev">Facebook</a>
         </div>
 
         <div id="content">
             <div id="body">
                 $body$
+                
+                <div id="disqus_thread"></div>
+                <script type="text/javascript">
+                    var disqus_shortname = 'mnedokushevme';
+
+                    (function() {
+                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                
             </div>
 
             <div id="footer">
@@ -42,6 +58,10 @@
                 <a href="https://github.com/grouzen/hakyll-mnedokushev-me">
                     available on Github
                 </a>.
+                <br/>
+                Found a mistake - feel free to contact me and let me know ;)
+                <br/><br />
+                Copyright &copy; 2014 Michael Nedokushev
             </div>
         </div>
 

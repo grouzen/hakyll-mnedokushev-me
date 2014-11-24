@@ -4,5 +4,5 @@ title: Contacts
 
 # Contacts
 
-You could email me on [grouzen.hexy@gmail.com](mailto:grouzen.hexy@gmail.com),  
-or add me in jabber *grouzen (at) jabber.ru*. 
+You could email me on [michael.nedokushev@gmail.com](mailto:michael.nedokushev@gmail.com),  
+

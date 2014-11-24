@@ -11,7 +11,7 @@ main = hakyllWith config $ do
 
   match "templates/*" $ compile templateCompiler
   
-  match "pages/*.md" $ do
+  match "pages/*" $ do
     route $ gsubRoute "pages/" (const "") `composeRoutes` setExtension "html"
     compile $ pandocCompiler
       >>= loadAndApplyTemplate "templates/default.html" defaultContext
@@ -46,10 +46,38 @@ main = hakyllWith config $ do
                 listField "posts" (postCtx tags) (return posts) <>
                 defaultContext
       makeItem ""
+        -- >>= applyAsTemplate ctx
         >>= loadAndApplyTemplate "templates/posts.html" ctx
         >>= loadAndApplyTemplate "templates/default.html" ctx
         >>= relativizeUrls
 
+  -- match "pages/*" $ do
+  --   route $ gsubRoute "pages/" (const "") `composeRoutes` setExtension "html"
+  --   compile $ do
+  --     posts <- fmap (take 3) . recentFirst =<< loadAll "posts/*"
+  --     let indexContext =
+  --           listField "posts" (postCtx tags) (return posts) <>
+  --           field "tags" (\_ -> renderTagList tags) <>
+  --           defaultContext
+  --     pandocCompiler
+  --       -- >>= applyAsTemplate indexContext
+  --       >>= loadAndApplyTemplate "templates/default.html" indexContext
+  --       >>= relativizeUrls
+
+  match "index.html" $ do
+    route idRoute
+    compile $ do
+      posts <- fmap (take 3) . recentFirst =<< loadAll "posts/*"
+      let indexContext =
+            listField "posts" (postCtx tags) (return posts) <>
+            field "tags" (\_ -> renderTagList tags) <>
+            defaultContext
+
+      getResourceBody
+        >>= applyAsTemplate indexContext
+        >>= loadAndApplyTemplate "templates/index.html" indexContext
+        >>= relativizeUrls
+    
   tagsRules tags $ \tag pattern -> do
     let title = "Posts tagged " ++ tag
 
@@ -64,6 +92,12 @@ main = hakyllWith config $ do
         >>= loadAndApplyTemplate "templates/default.html" ctx
         >>= relativizeUrls
 
+  where
+    pages =
+      [
+        "pages/contacts.md"
+      ]
+
 postCtx :: Tags -> Context String
 postCtx tags = mconcat
     [ modificationTimeField "mtime" "%U"
@@ -75,5 +109,6 @@ postCtx tags = mconcat
 
 config :: Configuration
 config = defaultConfiguration {
-  deployCommand = "rsync --checksum -ave 'ssh' _site/* root@mnedokushev.me:/var/www/"
+  -- deploying into antoshka's raspberrypi
+  deployCommand = "rsync --checksum -ave 'ssh -p 444' _site/* grouzen@idkfa.im:~/www" 
   }

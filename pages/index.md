@@ -23,7 +23,7 @@ in things like:
 - music
 - and riding the bicycle.  
 
-Looks pathetic, isn't it?
+Looks pathetic, doesn't it?
 
 If it so, look at my recent [posts](/posts.html)
 
