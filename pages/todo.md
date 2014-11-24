@@ -9,7 +9,7 @@ The main goal to do it - motivate myself to get things done! I'll really appreci
 The secondary goal is to keep the list of books and other wonderful stuff that I've ever read.
 I would like to update information on this page more often (thus, it would mean I'm moving forward ;-). So, please, feel free to kick my lazy ass!
 
-*I wish you will find it intersting for you. Enjoy!*
+*I wish you will find it interesting. Enjoy!*
 
 The further links and information devided by topics:
 
@@ -20,6 +20,8 @@ The further links and information devided by topics:
     - *|Todo|* [Dependently Typed Programming in Agda](http://www.cse.chalmers.se/~ulfn/papers/afp08/tutorial.pdf)  
       I've been frightened to learn languages with dependent types for a long time, but I'm inspired to learn math now.
       So I'm wondering, why don't I send my energy in this direction?
+    - *|Todo|* [Brutal Meta Introduction to Dependent Types in Agda](http://oxij.org/note/BrutalDepTypes/)  
+      The next thing to read after the previous book.
     - *|In progress|* [Robert Sedgewick and Kevin Wayne - Algorithms, 4th edition](http://algs4.cs.princeton.edu/home/)  
       I need to refresh my knowledge about classical data structures and algorithms. Moreover, I even have the [github repository](https://github.com/grouzen/coursera-algorithms) for this, of course I'm using Haskell ;)
 - Mathematics
