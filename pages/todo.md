@@ -11,7 +11,7 @@ I would like to update information on this page more often (thus, it would mean 
 
 *I wish you will find it interesting. Enjoy!*
 
-The further links and information devided by topics:
+The further links and information devided by the topics:
 
 - Computer Science
     - *|Todo|* [Computational Category Theory](http://www.cs.man.ac.uk/~david/categories/book/book.pdf)  

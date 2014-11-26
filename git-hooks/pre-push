@@ -1,1 +1,17 @@
-../.git/hooks/pre-push
+#!/bin/sh
+
+REPOROOT="$(git rev-parse --show-toplevel)"
+SITEBIN="${REPOROOT}/dist/build/site/site"
+
+if [[ `pwd` != $REPOROOT ]]; then
+   echo "Error: you should being in root of the project!"
+   exit 1
+elif [ ! -f $SITEBIN ]; then
+   echo "Error: you don't have $REPOROOT binary, first run 'cabal build', please!"
+   exit 2
+fi
+
+$SITEBIN build
+$SITEBIN deploy
+
+exit 0
