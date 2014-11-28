@@ -17,6 +17,9 @@ The further links and information devided by the topics:
     - *|Todo|* [Computational Category Theory](http://www.cs.man.ac.uk/~david/categories/book/book.pdf)  
       Just an another attempt to dive into the depths of the deepest depths.
       I was shocked that I've found this book on my laptop (the file was downloaded on 23 august 2013).
+    - *|In progress|* [Types and Programming Languages](http://www.cis.upenn.edu/~bcpierce/tapl/)  
+      The book contains a lot of useful information about types which I personally need for a practical usage.
+      The posts about this book can be found by tag [tapl](/tags/tapl.html)
 - Programming with Dependend Types
     - *|In progress|* [Dependently Typed Programming in Agda](http://www.cse.chalmers.se/~ulfn/papers/afp08/tutorial.pdf)  
       I've been frightened to learn languages with dependent types for a long time, but I'm inspired to learn math now.
@@ -25,11 +28,11 @@ The further links and information devided by the topics:
       Short and clear tutorial without typical blah-blah-bla crap. 
     - *|Todo|* [Brutal Meta Introduction to Dependent Types in Agda](http://oxij.org/note/BrutalDepTypes/)  
       The next thing to read after the previous book.
-    - *|In progress|* [Robert Sedgewick and Kevin Wayne - Algorithms, 4th edition](http://algs4.cs.princeton.edu/home/)  
+    - *|Idle|* [Robert Sedgewick and Kevin Wayne - Algorithms, 4th edition](http://algs4.cs.princeton.edu/home/)  
       I need to refresh my knowledge about classical data structures and algorithms. Moreover, I even have the [github repository](https://github.com/grouzen/coursera-algorithms) for this, of course I'm using Haskell ;)
 - Mathematics
     - *|In progress|* [Infinitesimal Calculus](http://www.amazon.com/Infinitesimal-Calculus-Dover-Books-Mathematics/dp/0486428869)  
     I think the nicest book in the world about introduction into calculus in general.
-    - *|In progress|* [The geometry of the complex numbers, quoternions, and spins](http://www.mccme.ru/free-books/izdano/2002/VIA-kvatern.pdf)  
+    - *|Idle|* [The geometry of the complex numbers, quoternions, and spins](http://www.mccme.ru/free-books/izdano/2002/VIA-kvatern.pdf)  
     Another one great book from the russian mathematician (badly only in russian). I can read and understand only the first half of the book, but I'm not giving up ;)
 - **The list isn't complete yet...**
