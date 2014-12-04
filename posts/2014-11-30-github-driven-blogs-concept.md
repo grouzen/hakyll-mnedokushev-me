@@ -1,7 +1,7 @@
 ---
 title: Github Driven Blogs concept
 tags: github, imagination, fun
-description: I just thought it would be cool to make blogging service based on github and git.
+description: I just thought it would be cool to make blogging service based on github and git
 ---
 While I was hanging out today with my friends, suddenly, I realized that the github
 can be used as a blogging platform. The principle is pretty simple:

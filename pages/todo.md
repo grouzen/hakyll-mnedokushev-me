@@ -4,7 +4,7 @@ title: Todo List
 
 # Pub&lambda;ic Todo &lambda;ist
 
-Here I'll keep my global public Todo list for the next few month (actually for the next gazillion years XD)
+Here I'll keep my global public Todo list for the next few months (actually for the next gazillion years XD)
 The main goal to do it - motivate myself to get things done! I'll really appreciate your comments with useful links below.
 The secondary goal is to keep the list of books and other wonderful stuff that I've ever read.
 I would like to update information on this page more often (thus, it would mean I'm moving forward ;-). So, please, feel free to kick my lazy ass!

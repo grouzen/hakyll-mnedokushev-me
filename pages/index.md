@@ -6,7 +6,7 @@ title: Home page
 
 Hi, my name is Michael.
 
-Currently, I'm a Perl programmer at GlobalLogic in Kiev.  
+Currently, I'm a Perl programmer at GlobalLogic in Kiev <img src="/images/flag-of-ukraine.png" />  
 Most of my time I'm sitting at the computer and trying to do
 some cool stuff. Sometimes I can take the guitar to start playing
 hard and fast like a beast.  
