@@ -11,7 +11,7 @@ can be used as a blogging platform. The principle is pretty simple:
   repository must be the same for each user, so users can easily and intuitively navigate
   through the service)
 * creation of a new post is equal to the creation of a new issue in the 'blog' repository
-* to subscribe on the user's blog you need just click on 'watch' button inside 'blog' repository
+* to subscribe on the user's blog you just need to click on a 'watch' button inside 'blog' repository
 
 That's it! You can post your staff, comment on it, subscribe to other users. WoooHooo!
 
