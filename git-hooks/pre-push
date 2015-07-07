@@ -11,6 +11,9 @@ elif [ ! -f $SITEBIN ]; then
    exit 2
 fi
 
+# Build CV
+pandoc $REPOROOT/files/resume.md -o $REPOROOT/files/resume.pdf --template=$REPOROOT/files/mytemplate.tex --latex-engine=xelatex -V mainfont="DejaVu Sans Mono" -V fontsize=11pt -V geometry:paperwidth=8.27in -V geometry:paperheight=11.7in  -V geometry:top=1in
+
 $SITEBIN build
 $SITEBIN deploy
 
