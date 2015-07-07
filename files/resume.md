@@ -30,7 +30,7 @@ Software engineer
 # Professional Experience
 
 **Company:**          GlobalLogic  
-**Duration:**         June 2013 - Present  
+**Duration:**         June 2013 - Present (2 years)  
 **Role:**             Perl developer  
 **Responsibilities:**  
     Development and maintenance of internal services (CI, artifacts repositories), and dev tools
@@ -41,7 +41,7 @@ Software engineer
 ------------------------------------------------------------------------------------------------------------------------
 
 **Company:**          Tadatuta  
-**Duration:**         April 2012 - May 2013  
+**Duration:**         April 2012 - May 2013 (1 year)  
 **Role:**             Fontend/Backend Web developer, Android developer  
 **Responsibilities:**  
     Web projects development.  
@@ -53,7 +53,7 @@ Software engineer
 ------------------------------------------------------------------------------------------------------------------------
 
 **Company:**          Siprok  
-**Duration:**         July 2011 - February 2012  
+**Duration:**         July 2011 - February 2012 (8 months)  
 **Role:**             JavaScript developer  
 **Responsibilities:**  
     Development of one page application on JavaScript.  
@@ -62,7 +62,7 @@ JavaScript, Python, JQuery, Backbone.js, OpenLayers, Google Maps, HTML, CSS.
 
 ------------------------------------------------------------------------------------------------------------------------
 
-**Company:**          CIN Online LTD  
+**Company:**          CIN Online LTD (3 years)  
 **Duration:**         June 2009 - May 2012  
 **Role:**             Web developer, Network administrator  
 **Responsibilities:**  
@@ -72,7 +72,7 @@ JavaScript, Python, JQuery, Backbone.js, OpenLayers, Google Maps, HTML, CSS.
 
 # Part-time projects
 **Company:**  Unnamed start-up  
-**Duration:** May 2014 - September 2014  
+**Duration:** May 2014 - September 2014 (5 months)  
 **Role:**     Backend developer  
 **Responsibilities:**  
     Develop a social network (closest analogue - LinkedIn).  
