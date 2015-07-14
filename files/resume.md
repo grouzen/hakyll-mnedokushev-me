@@ -11,7 +11,7 @@ Software engineer
 
 # Summary
 * Overall 6 years of work experience.
-* Interested in math, and functional programming.
+* Interested in math, computer science, and functional programming.
 * I'm always open to learn and explore new areas of knowledge.
 
 # Technical Skills
