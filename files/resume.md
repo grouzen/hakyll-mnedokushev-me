@@ -7,7 +7,7 @@ Software engineer
 **email:    michael.nedokushev@gmail.com**  
 **homepage: [http://mnedokushev.me/](http://mnedokushev.me/)**  
 **github:   [profile](http://github.com/grouzen)**  
-**current location: Kiev**  
+**current location: Ukraine, Kiev**  
 
 # Summary
 * Overall 6 years of work experience.
