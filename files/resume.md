@@ -79,6 +79,6 @@ Software engineer
     Develop a social network (closest analogue – LinkedIn).  
     I was able to choose technology stack and people to work with.  
     Was responsible for leading a workflow: interviewing people, choosing kanban/scrum methodologies,
-    making the key decisions about functionality and design of the product.
+    making the key decisions about functionality and design of the product.  
 **Technologies:**  
     Scala, Play framework, Slick, Akka, SSE, PostgreSQL
