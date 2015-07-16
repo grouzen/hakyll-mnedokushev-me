@@ -57,7 +57,7 @@ Software engineer
 **Role:**             JavaScript developer  
 **Responsibilities:**  
     Development of a one page application in JavaScript.  
-**Technologies:** 
+**Technologies:**  
     JavaScript, Python, JQuery, Backbone.js, OpenLayers, Google Maps, HTML, CSS.
 
 ------------------------------------------------------------------------------------------------------------------------
