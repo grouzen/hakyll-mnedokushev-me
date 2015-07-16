@@ -45,7 +45,7 @@ Software engineer
 **Role:**             Fontend/Backend Web developer, Android developer  
 **Responsibilities:**  
     Web projects development.  
-    Web site for Links Of London, government web site for Khanty-Mansiysk.  
+    Web site for 'Links Of London', government web site for Khanty-Mansiysk.  
     Development of Android applications as a part of several web projects.  
 **Technologies:**  
     PHP, Python, Java, Android SDK, JQuery, Backbone.js, HTML5, Oracle PL/SQL.   
@@ -56,28 +56,29 @@ Software engineer
 **Duration:**         July 2011 - February 2012 (8 months)  
 **Role:**             JavaScript developer  
 **Responsibilities:**  
-    Development of one page application on JavaScript.  
+    Development of a one page application in JavaScript.  
 **Technologies:** 
-JavaScript, Python, JQuery, Backbone.js, OpenLayers, Google Maps, HTML, CSS.
+    JavaScript, Python, JQuery, Backbone.js, OpenLayers, Google Maps, HTML, CSS.
 
 ------------------------------------------------------------------------------------------------------------------------
 
 **Company:**          CIN Online LTD (3 years)  
 **Duration:**         June 2009 - May 2012  
-**Role:**             Web developer, Network administrator  
+**Role:**             Developer, Network administrator  
 **Responsibilities:**  
+    I was the only person who was responsible for the entire IT infrastructure in the ISP company.  
     Development of web sites, and internal services for the needs of company.  
-    Maintenance and development of new modules for billing system written in Perl.  
-    Building and maintenance network based on GNU/Linux, FreeBSD servers, and L2/L3 switches.  
+    Maintenance and development of new modules for a billing system written in Perl.  
+    Building and maintenance a network based on GNU/Linux, FreeBSD servers, and L2/L3 switches.  
 
 # Part-time projects
 **Company:**  Unnamed start-up  
 **Duration:** May 2014 - September 2014 (5 months)  
 **Role:**     Backend developer  
 **Responsibilities:**  
-    Develop a social network (closest analogue - LinkedIn).  
+    Develop a social network (closest analogue – LinkedIn).  
     I was able to choose technology stack and people to work with.  
     Was responsible for leading a workflow: interviewing people, choosing kanban/scrum methodologies,
-    making the key decisions about functionality and design of product, and so on.  
+    making the key decisions about functionality and design of the product.
 **Technologies:**  
     Scala, Play framework, Slick, Akka, SSE, PostgreSQL
