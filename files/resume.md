@@ -48,7 +48,7 @@ Software engineer
     Web site for 'Links Of London', government web site for Khanty-Mansiysk.  
     Development of Android applications as a part of several web projects.  
 **Technologies:**  
-    PHP, Python, Java, Android SDK, JQuery, Backbone.js, HTML5, Oracle PL/SQL.   
+    PHP, Python, Java, Android SDK, Phonegap, JQuery, Backbone.js, HTML5, Oracle PL/SQL.   
 
 ------------------------------------------------------------------------------------------------------------------------
 
