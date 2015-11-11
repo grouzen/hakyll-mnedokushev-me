@@ -9,12 +9,13 @@ import Control.Applicative ((<$>))
 import Data.Char           (isSpace)
 import Data.List           (dropWhileEnd)
 import System.Process      (readProcess)
+import Data.Time.Clock
+import Data.Time.Calendar
 
 main :: IO ()
 main = hakyllWith config $ do
-
-  --let versionContext = versionField "versionInfo" <> versionContext
-  let versionContext = defaultContext
+  
+  let versionContext = generatedDateField "gdate" <> defaultContext
   
   match "templates/*" $ compile templateCompiler
   
@@ -144,3 +145,8 @@ versionField name = field name $ \item -> unsafeCompiler $ do
 -- Field that contains the commit hash of HEAD.
 headVersionField :: String -> Context String
 headVersionField name = field name $ \_ -> unsafeCompiler $ getGitVersion ""
+
+generatedDateField :: String -> Context String
+generatedDateField name = field name $ \item -> unsafeCompiler $ do
+  (year,month,day) <- getCurrentTime >>= return . toGregorian . utctDay
+  return $ (show month) ++ "." ++ (show day) ++ "." ++ (show year)
