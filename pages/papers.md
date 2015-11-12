@@ -26,7 +26,7 @@ On this page I'll store some papers which were usefull for me or gave me the unf
 - [Natural Semantics](http://www.cse.chalmers.se/edu/year/2010/course/DAT140_Types/Kahn.pdf)  
 
     It's an introduction into Natural Semantics. Inside,
-    authors creates a mini-ML compiler which compiles a mini-ML code into CAM (Categorical Abstract Machine) bytecode
+    authors create a mini-ML compiler which compiles a mini-ML code into CAM (Categorical Abstract Machine) bytecode
     using Natural Semantics to reason about compiler, and CAM.
     
 
