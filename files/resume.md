@@ -30,13 +30,13 @@ Software engineer
 # Professional Experience
 
 **Company:**          GlobalLogic  
-**Duration:**         June 2013 - Present (2 years)  
+**Duration:**         June 2013 - Present (2.5 years)  
 **Role:**             Perl developer  
 **Responsibilities:**  
     Development and maintenance of internal services (CI, artifacts repositories), and dev tools
     which are broadly used by developers, and QA teams.  
 **Technologies:**  
-    Perl, XPath, ECommander API, AccuRev, Nexus Sonatype, CouchDB, Java/GWT, ant, maven, gradle, etc  
+    Perl, Bash, XPath, ECommander API, AccuRev, Git, Nexus Sonatype, CouchDB, Java/GWT, Ant, Maven, Gradle
 
 ------------------------------------------------------------------------------------------------------------------------
 
