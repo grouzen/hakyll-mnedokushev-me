@@ -6,32 +6,24 @@ title: Home page
 
 Hi, my name is Michael.
 
-Currently, I'm a Perl programmer at GlobalLogic in Kiev <img src="/images/flag-of-ukraine.png" />  
-Most of my time I'm sitting at the computer and trying to do
-some cool stuff. Sometimes I can take the guitar to start playing
-hard and fast like a beast.  
-
-This blog is just my next attempt to start write some my thoughts 
+Currently, I'm a Perl programmer at GlobalLogic in Kyiv.
+This blog is just my next attempt to start writing my thoughts 
 and findings mostly about programming and computer science.
 
-I'm not a professor, just a self-taught who is interested  
+I'm just a self-taught who is interested  
 in things like:
 
 - *nix systems
 - programming
-- computer science
+- computer science and math
 - music
-- and riding the bicycle.  
-
-Looks pathetic, doesn't it?
-
-If it so, look at my recent [posts](/posts.html)
+- riding the bike.  
 
 ## Programming
 
-For many years, my favorite text editor is Notepad.exe... 
+For many years, my favorite text editor was Notepad.exe... 
 just kidding, actually Emacs. One of my favorite programming language 
 is by far the Common Lisp, and I think it will be so until my death.
-Yeah, I know, you could say that it's not statically typed, but in my defense
-I can say that this blog is written in Haskell ;-).
+Yeah, I know, you could say that there is no "type soundness" in it, but in my defense
+I would say this blog is written in Haskell ;-).
 
