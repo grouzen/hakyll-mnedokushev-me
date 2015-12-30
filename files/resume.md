@@ -20,7 +20,7 @@ Software engineer
 * RDBMS  
   MySQL, PostgreSQL, Oracle, CouchDB
 * SCM  
-  git, mercurial, AccuRev
+  git, AccuRev
   
 # Foreign Languages Skills
 * English  
