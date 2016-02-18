@@ -41,7 +41,7 @@ Software engineer
 
 ------------------------------------------------------------------------------------------------------------------------
 
-**Company:**          Tadatuta dev group (remote work)  
+**Company:**          Tadatuta dev group (remotely)  
 **Duration:**         April 2012 - May 2013 (1 year)  
 **Role:**             Fontend/Backend Web developer, Android developer  
 **Responsibilities:**  
@@ -69,11 +69,11 @@ Software engineer
 **Role:**             JavaScript developer  
 **Responsibilities:**  
     I was working in a pair with a backend developer.
-    Our application in essence was a SPA with RESTful API written in python on the backend. We was building a pretty
-    reach UI/UX with reach functionality. The goal: to develop a map/geolocation based
-    service for a different kind of customers. The customers should be able to be in
-    touch (in real-time) with their business units which are real world objects. These
-    objects may have a lot of parameters, and be easily configurable by users.  
+    Our application in essence was a SPA with RESTful API written in python on the backend.
+    The goal was to develop a map/geolocation based service with a rich UI/UX experience for
+    a different kind of customers. The customers should be able to be in touch (in real-time)
+    with their business units which are real world objects.
+    These objects may have a lot of parameters, and be easily configurable by users.  
 **Technologies:**  
     JavaScript, Python, JQuery, Backbone.js, OpenLayers, Google Maps, HTML, CSS.
 
@@ -91,7 +91,7 @@ Software engineer
 
 # Part-time projects
 
-**Company:**  Unnamed start-up  
+**Company:**  Unnamed start-up (remotely)  
 **Duration:** May 2014 - September 2014 (5 months)  
 **Role:**     Backend developer  
 **Responsibilities:**  
