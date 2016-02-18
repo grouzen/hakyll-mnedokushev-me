@@ -1,17 +1,9 @@
-#!/bin/sh
+#!/bin/bash
 
+# That means the script must be runned exclusively from the repo dir.
 REPOROOT="$(git rev-parse --show-toplevel)"
 SITEBIN="${REPOROOT}/dist/build/site/site"
 
-if [[ `pwd` != $REPOROOT ]]; then
-   echo "Error: you should being in root of the project!"
-   exit 1
-elif [ ! -f $SITEBIN ]; then
-   echo "Error: you don't have $REPOROOT binary, first run 'cabal build', please!"
-   exit 2
-fi
-
-# Build CV
 pandoc $REPOROOT/files/resume.md \
        -o $REPOROOT/files/resume.pdf \
        --template=$REPOROOT/files/mytemplate.tex \
@@ -19,10 +11,5 @@ pandoc $REPOROOT/files/resume.md \
        -V mainfont="DejaVu Sans Mono" \
        -V fontsize=11pt \
        -V geometry:paperwidth=8.27in \
-       -V geometry:paperheight=11.7in \
+       -V geometry:paperheight=11.7in  \
        -V geometry:top=1in
-
-$SITEBIN build
-$SITEBIN deploy
-
-exit 0

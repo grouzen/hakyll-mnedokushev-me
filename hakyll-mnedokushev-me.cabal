@@ -5,7 +5,7 @@ name:                hakyll-mnedokushev-me
 version:             0.1.0.0
 synopsis:            My personal static web site
 -- description:         
-license:             Copyright
+license:             MIT
 license-file:        LICENSE
 author:              Michael Nedokushev
 maintainer:          grouzen.hexy@gmail.com

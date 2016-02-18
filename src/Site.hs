@@ -18,6 +18,14 @@ main = hakyllWith config $ do
   let versionContext = generatedDateField "gdate" <> defaultContext
   
   match "templates/*" $ compile templateCompiler
+
+  -- redirect from http://mnedokushev.me/github to my github profile
+  -- match "redirects/*" $ do
+  --   let redirectCtx = constField "redirecturl" "http://github.com/grouzen/" <> defaultContext
+    
+  --   route idRoute
+  --   compile $ pandocCompiler
+  --     >>= loadAndApplyTemplate "templates/redirect.html" redirectCtx
   
   match "pages/*" $ do
     route $ gsubRoute "pages/" (const "") `composeRoutes` setExtension "html"
@@ -129,22 +137,22 @@ config = defaultConfiguration {
   deployCommand = "rsync --checksum -ave 'ssh -p 444' _site/* grouzen@idkfa.im:~/www" 
   }
 
--- Got this code from http://vapaus.org/text/hakyll-configuration.html
--- Actually it doesn't work well, I mean at all ;(
-getGitVersion :: FilePath -> IO String
-getGitVersion path = trim <$> readProcess "git" ["log", "-1", "--format=%h (%ai) %s", "--", path] ""
-  where
-    trim = dropWhileEnd isSpace
+-- -- Got this code from http://vapaus.org/text/hakyll-configuration.html
+-- -- Actually it doesn't work well, I mean at all ;(
+-- getGitVersion :: FilePath -> IO String
+-- getGitVersion path = trim <$> readProcess "git" ["log", "-1", "--format=%h (%ai) %s", "--", path] ""
+--   where
+--     trim = dropWhileEnd isSpace
 
--- Field that contains the latest commit hash that hash touched the current item.
-versionField :: String -> Context String
-versionField name = field name $ \item -> unsafeCompiler $ do
-    let path = toFilePath $ itemIdentifier item
-    getGitVersion path
+-- -- Field that contains the latest commit hash that hash touched the current item.
+-- versionField :: String -> Context String
+-- versionField name = field name $ \item -> unsafeCompiler $ do
+--     let path = toFilePath $ itemIdentifier item
+--     getGitVersion path
 
--- Field that contains the commit hash of HEAD.
-headVersionField :: String -> Context String
-headVersionField name = field name $ \_ -> unsafeCompiler $ getGitVersion ""
+-- -- Field that contains the commit hash of HEAD.
+-- headVersionField :: String -> Context String
+-- headVersionField name = field name $ \_ -> unsafeCompiler $ getGitVersion ""
 
 generatedDateField :: String -> Context String
 generatedDateField name = field name $ \item -> unsafeCompiler $ do

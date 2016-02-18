@@ -41,7 +41,9 @@ The further links and information devided by topics:
       I think the nicest book in the world about introduction into calculus in general.
     - *|Half Done ;)|* [The geometry of the complex numbers, quoternions, and spins](http://www.mccme.ru/free-books/izdano/2002/VIA-kvatern.pdf)  
       Another one great book from the russian mathematician (badly only in russian). I can read and understand only the first half of the book, but I'm not giving up ;)
-
+    - *|In Progress|* [Homotopy Type Theory Univalent Foundations Of Mathematics](http://homotopytypetheory.org/book/)
+      No opinion yet
+    
 - Engineering
     - *|In Progress|* [Crypto101](https://www.crypto101.io/)  
       Crypto 101 is an introductory course on cryptography, freely available for programmers of all ages and skill levels. 
