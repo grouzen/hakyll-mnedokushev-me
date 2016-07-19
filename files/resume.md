@@ -10,26 +10,22 @@ Software engineer
 **location: Ukraine, Kiev**  
 
 # Summary
-* Overall 6 years of work experience.
+* Overall 7 years of work experience.
 * Interested in math, computer science, and functional programming.
 * I'm always open to learn and explore new areas of knowledge.
 
 # Technical Skills
 * Programming Languages  
-  C, Java, Scala, Perl, Python, JavaScript, Common Lisp, Bash
+  C, Java, Scala, Perl, Python, JavaScript, Bash
 * RDBMS  
   MySQL, PostgreSQL, Oracle, CouchDB
 * SCM  
-  git, AccuRev
-  
-# Foreign Languages Skills
-* English  
-  intermediate  
+  hg, git, AccuRev
 
 # Professional Experience
 
 **Company:**          GlobalLogic  
-**Duration:**         June 2013 - Present (2.5 years)  
+**Duration:**         June 2013 - June 2016 (3 years)  
 **Role:**             Perl developer
 
 **Responsibilities:**  
@@ -68,7 +64,7 @@ Software engineer
 
 ------------------------------------------------------------------------------------------------------------------------
 
-**Company:**          Siprok.ru  
+**Company:**          Siprok.ru (remotely)  
 **Duration:**         July 2011 - February 2012 (8 months)  
 **Role:**             JavaScript developer
 
@@ -112,10 +108,3 @@ Software engineer
     
 **Technologies:**  
     Scala, Play framework, Slick, Akka, SSE, PostgreSQL
-
-
-# Personal interests
-
-Nowadays, my personal technical interests are lying in the following areas:  
-foundations of mathematics, type theory, some topics from the higher math,
-computer science, AI
