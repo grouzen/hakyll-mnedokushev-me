@@ -1,40 +1,68 @@
-Mykhailo Nedokushev
+Mykhaiλo Nedokushev
 =========================
 Software engineer
 -----------------------
 
 **phone:    +380933449315**  
 **email:    michael.nedokushev@gmail.com**  
-**homepage: [http://mnedokushev.me/](http://mnedokushev.me/)**  
 **github:   [http://github.com/grouzen](http://github.com/grouzen)**  
 **location: Ukraine, Kiev**  
 
 # Summary
-* Overall 7 years of work experience.
+* Overall 12 years of working experience.
 * Interested in math, computer science, and functional programming.
-* I'm always open to learn and explore new areas of knowledge.
+* I like challenging tasks in non-trivial business domains.
 
-# Technical Skills
-* Programming Languages  
-  C, Java, Scala, Perl, Python, JavaScript, Bash
-* RDBMS  
-  MySQL, PostgreSQL, Oracle, CouchDB
-* SCM  
-  hg, git, AccuRev
+# Buzzwords
+**Scala**, Haskell, Python, Perl, Java, JavaScript, C,  
+MySQL, PostreSQL, CouchDB, ElasticSearch, Redis,  
+Kafka, RabbitMQ,  
+Grafana, Prometheus,
+Docker, K8S,    
+Google Cloud
 
 # Professional Experience
+
+**Company:**           Tranzzo/Evo  
+**Duration:**          June 2019 - July 2021 (2 years)  
+**Role:**              Lead Scala developer  
+
+**Responsibilities:**  
+    I joined to the team at the early stage as a Team/Tech lead. We had 4 scala developers at that moment. Our mission was to adopt to the needs of all major products of Evo an already existing payment system developed by vendor company Tranzzo.  
+    I had the following goals as a team leader:      
+    - gain the knowledge about the vendor's payment systems and share it with the team  
+    - build a strong team by hiring the best Scala developers  
+    - guide and improve the technical stack  
+    The project consists of over 40 microservices all written in Scala and connected via HTTP and async messaging. I was involved in development of the most services to embrace every detail of the project. But most of the time I've spent working on billing that was the most wanted and missing piece for the business.  
+    I leaved the company when we successfully migrated all microservices and data to our Google Cloud, with working billing in production, and had 9 people in our Scala team.
+
+**Technologies:**  
+    Scala, Play framework, Akka (streams, persistence, cluster), Cats (core, effect, mtl), ZIO, slick, doobie, tapir, http4s, distage, PostgreSQL, ElasticSearch, Timescale DB, Kafka, RabbitMQ, Redis, k8s, Google Cloud, Grafana, Prometheus, Temporal
+
+
+**Company:**           Megogo  
+**Duration:**          November 2016 - June 2019 (2,5 years)  
+**Role:**              Scala developer  
+
+**Responsibilities:**  
+    IT department of the company was divided into 5 teams: core, web, mobile, smart TV, CDN. I was a member of a web team that was responsible for the development of a part of microservices written in Scala. The biggest and most complicated of them is so called "CMS" (aka content management system), the main purpose of which is to serve the main web portal of the company. Due to the fact that the system allows you to flexibly customize pages with various kinds of content, it is also widely used in other products of the company, such as: SmartTV, mobile, and websites specially designed for our partners (MTS, Kyivstar, etc).  
+    I've spent about a year developing a backend of the comany's most high-loaded service which is used to embed Megogo in other sites all across the Internet.   
+    After more than two years spent in the company I was appointed as a team leader of our team (~10 people). I believe that the main responsibility in this position is building a team in which each member can perform work of any complexity. It implies the good knowledge of the "product". That means that I have to share my knowledge with already working people and newcomers through writing documentation and conducting training in various forms.
+    
+**Technologies:**  
+    Scala, Play framework, Akka Streams, CouchDB, MySQL, Grafana, Prometheus
+
+------------------------------------------------------------------------------------------------------------------------
 
 **Company:**          GlobalLogic  
 **Duration:**         June 2013 - June 2016 (3 years)  
 **Role:**             Perl developer
 
 **Responsibilities:**  
-    Process automation, development and maintenance of internal services
-    (Continious Integration/Delivery, artifacts repositories), and dev tools which are
-    broadly used by developers, and QA teams across the company.
+    Process automation, development and maintenance of internal services (Continious Integration Delivery, artifacts repositories), and dev tools which are broadly used by developers, and QA teams across the company.
     
 **Technologies:**  
-    Perl, Bash, XPath, ECommander API, AccuRev, Git, Nexus Sonatype, CouchDB, Java/GWT, Ant, Maven, Gradle
+    Perl, Bash, ECommander API, AccuRev, Git, Nexus Sonatype, CouchDB, Java/GWT, Ant, Maven, Gradle
 
 ------------------------------------------------------------------------------------------------------------------------
 
@@ -72,7 +100,7 @@ Software engineer
     I was working in a pair with a backend developer.
     Our application was a SPA with RESTful API on the backend written in python.
     The goal was to develop a map/geolocation based service with a rich UI/UX experience for
-    a different kind of customers. The customers should be able to be in touch (in real-time)
+    all sorts of customers. The customers should be able to be in touch (in real-time)
     with their business units (moving real world objects like: cars, ships, etc). Our platform
     had to support flexible creating and editing of different types of units, and be able to
     gather and monitor an information from sensors direclty installed on these units.
@@ -91,20 +119,4 @@ Software engineer
     ISP company (1000+ customers). Development of web sites, and internal services which
     where actively used by our customers and employees. Develop and maintain new modules
     for a billing system written in Perl. Administrate a network based on *Nix servers
-    (http, ftp, torrent, dns, email, iptv, webcams, bgp, billing, etc) and L2/L3 switches.
-
-# Part-time projects
-
-**Company:**  Unnamed start-up (remotely)  
-**Duration:** May 2014 - September 2014 (5 months)  
-**Role:**     Backend developer
-
-**Responsibilities:**  
-    Develop a social network (closest analogue – LinkedIn).
-    I was able to choose technology stack and people to work with.
-    On this project my responsibility was expanded to include the following:
-    interview new people, choose one of the PM methodologies (agile, kanban, scrum),
-    make the key decisions about functionality and design of the product.
-    
-**Technologies:**  
-    Scala, Play framework, Slick, Akka, SSE, PostgreSQL
+    (http, ftp, torrent, dns, email, iptv, webcams, bgp, billing, firewall, etc) and L2/L3 switches.

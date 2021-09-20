@@ -7,7 +7,7 @@ SITEBIN="${REPOROOT}/dist/build/site/site"
 pandoc $REPOROOT/files/resume.md \
        -o $REPOROOT/files/resume.pdf \
        --template=$REPOROOT/files/mytemplate.tex \
-       --latex-engine=xelatex \
+       --pdf-engine=xelatex \
        -V mainfont="DejaVu Sans Mono" \
        -V fontsize=11pt \
        -V geometry:paperwidth=8.27in \
